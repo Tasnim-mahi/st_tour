@@ -1,0 +1,358 @@
+/* All Common CSS Start  */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+/* All Common CSS End  */
+
+
+
+/* ============================= */
+/* Header Part CSS start here */
+
+#header{
+    background: url(../images/coral.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header_overlay{
+    padding: 300px 0;
+    background: rgba(17, 17, 17, 0.4);
+}
+.h_text{
+    text-align: center;
+}
+.h_text h6{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Gilda Display', serif;
+    text-transform: uppercase;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.h_text h1{
+    font-size: 56px;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Kavivanar', cursive;
+    text-transform: uppercase;
+    line-height: 65px;
+    position: relative;
+}
+.h_text h1::after {
+	position: absolute;
+	height: 1px;
+	width: 157px;
+	content: "";
+	top: 90px;
+	left: 480px;
+	background: #fff;
+}
+.h_text h5 {
+	font-size: 30px;
+	color: #fff;
+	font-weight: 400;
+	font-family: 'Inter', sans-serif;
+	line-height: 35px;
+	padding-top: 70px;
+	padding-bottom: 100px;
+	margin: 0 173px;
+}
+
+
+/* Header Part CSS end here */
+/* ============================= */
+
+
+
+/* ============================= */
+/* banner Part CSS start here */
+
+#see_more{
+    padding: 100px 0;
+}
+.service_item{
+    text-align: center;
+}
+.s_icon i{
+    font-size: 25px;
+}
+.s_txt h1{
+    font-size: 22px;
+    color: #111;
+    font-weight: 600;
+    font-family: 'Gilda Display', serif;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.s_txt p {
+	font-size: 12px;
+	color: #111;
+	font-weight: 400;
+	font-family: 'Inter', sans-serif;
+	padding: 0 36px;
+	line-height: 17px;
+	position: relative;
+    margin-bottom: 30px;
+    transition: .4s;
+}
+.s_txt p::after {
+	position: absolute;
+	height: 2px;
+	width: 0px;
+	content: "";
+	top: 69px;
+	left: 97px;
+	background: #c7b299;
+}
+.service_item:hover i{
+    color: #c7b299;
+}
+.service_item:hover h1{
+    color: #c7b299;
+}
+.service_item:hover p{
+    color: #c7b299;
+}
+.service_item:hover p::after{
+    width: 55px;
+    background: #c7b299;
+}
+
+
+/* banner Part CSS end here */
+/* ============================= */
+
+
+
+
+/* ============================= */
+/* Header Part CSS start here */
+
+#banner{
+    padding: 50px 0;
+    background: #2c2c2c;
+}
+.b_txt{
+    text-align: center;
+}
+.b_txt h1{
+    font-size: 22px;
+    color: #d5d5d5;
+    font-weight: 600;
+    font-family: 'Gilda Display', serif;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 30px;
+}
+.b_txt h1::before {
+	position: absolute;
+	height: 1px;
+	width: 100px;
+	content: "";
+	top: 8px;
+	left: 0px;
+	background: #535353;
+}
+.b_txt h1::after {
+	position: absolute;
+	height: 1px;
+	width: 100px;
+	content: "";
+	top: 8px;
+	right: 0px;
+	background: #535353;
+}
+
+.banner_item{
+    width: 24.75%;
+    display: inline-block;
+}
+.banner_item img{
+    width: 100%;
+    height: 300px;
+}
+/* #banner{
+    background: url(../images/rooms.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner_overlay{
+    background: rgba(17, 17, 17, 0.6);
+    padding: 300px 0;
+}
+.banner_text{
+    text-align: center;
+}
+.banner_text h1{
+    font-size: 32px;
+	color: #fff;
+	font-weight: 600;
+	font-family: 'Gilda Display', serif;
+    text-transform: uppercase;
+}
+.banner_text p{
+    font-size: 20px;
+	color: #fff;
+	font-weight: 400;
+	font-family: 'Inter', sans-serif;
+    padding-top: 20px;
+}
+.banner_text p i{
+    font-size: 20px;
+	color: yellow;
+	
+} */
+/* Header Part CSS end here */
+/* ============================= */
+
+
+
+
+/* ============================= */
+/* location Part CSS start here */
+#location{
+    padding-top: 70px;
+}
+.l_img img{
+    width: 100%;
+}
+.l_text{
+    text-align: center;
+}
+.l_text h1{
+    font-size: 18px;
+	color: #111;
+	font-weight: 400;
+	font-family: 'Inter', sans-serif;
+    padding-top: 20px;
+}
+.l_text i{
+    padding-top:50px;
+    font-size: 35px;
+    transform: rotate(45deg);
+}
+/* location Part CSS end here */
+/* ============================= */
+
+
+
+/* ============================= */
+/* video Part CSS start here */
+
+#video{
+    
+    background: url(../images/fish.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.video_overlay{
+    padding: 300px 0;
+    background: rgba(17, 17, 17, 0.5);
+}
+.p_icon img{
+    width: 100%;
+}
+/* video Part CSS end here */
+/* ============================= */
+
+
+
+/* ============================= */
+/* form Part CSS start here */
+#form{
+    padding: 100px 0;
+    background: rgb(34, 34, 34);
+}
+.contact h1{
+    font-size: 47px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Kavivanar', cursive;
+    text-transform: uppercase;
+    line-height: 65px;
+}
+.contact h1::after {
+	position: absolute;
+	height: 1px;
+	width: 120px;
+	content: "";
+	top: 145px;
+	left: 16px;
+	background: #fff;
+}
+.contact h2{
+    font-size: 22px;
+	color: #fff;
+	font-weight: 600;
+	font-family: 'Inter', sans-serif;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+.contact p{
+    font-size: 16px;
+	color: #fff;
+	font-weight: 300;
+	font-family: 'Inter', sans-serif;
+    line-height: 18px;
+    padding-top: 5px;
+}
+.form{
+    padding-top: 150px;
+}
+.form h1{
+    font-size: 18px;
+	color: #fff;
+	font-weight: 600;
+	font-family: 'Inter', sans-serif;
+    padding-top: 20px;
+    
+}
+.form button {
+	border: none;
+	display: block;
+	padding: 7px 10px;
+	margin-top: 10px;
+	border-radius: 5px;
+    text-transform: uppercase;
+}
+/* form Part CSS end here */
+/* ============================= */
+
+/* back to top start  */
+
+.back_to_top{
+    height: 70px;
+    width: 70px;
+    background: #111;
+    border-radius: 50%;
+    text-align: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.back_to_top i{
+    line-height: 70px;
+    font-size: 35px;
+    color: #fff;
+}
+
+/* back to top end */
